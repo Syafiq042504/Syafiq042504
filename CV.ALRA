@@ -32,4 +32,76 @@
 
 </body>
 </html>
-    
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contoh Tombol Pojok Kanan Atas</title>
+  <style>
+    body {
+      margin: 0; /* Menghilangkan margin bawaan browser */
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    .corner-button {
+      position: fixed; /* Membuat elemen tetap di layar */
+      top: 10px; /* Jarak dari atas */
+      right: 10px; /* Jarak dari kanan */
+      padding: 10px;
+      background-color: #3498db;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Tombol di pojok kanan atas -->
+  <button class="corner-button">Klik Saya</button>
+
+</body>
+</html>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Daftar Halaman</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    nav {
+      background-color: #333;
+      padding: 10px;
+    }
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+    li {
+      display: inline;
+      margin-right: 10px;
+    }
+    a {
+      text-decoration: none;
+      color: #fff;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+  <nav>
+    <ul>
+      <li><a href="#home">Beranda</a></li>
+      <li><a href="#about">Tentang Kami</a></li>
+      <li><a href="#services">Layanan</a></li>
+      <li><a href="#contact">Kontak</a></li>
+    </ul>
+  </nav>
+
+  <!-- Konten halaman Anda akan ditempatkan di sini -->
+
+</body>
+</html>
